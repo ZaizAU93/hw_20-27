@@ -1,0 +1,12 @@
+.fon {
+    height: 100vw;
+    width: 100vw;
+    background-image:url("/web/img/minsk.jpg");
+
+    background-size: contain;
+
+}
+
+body {
+    overflow: hidden;
+}

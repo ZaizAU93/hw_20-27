@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    display: flex;
+    overflow: visible;
+}
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    color: white;
+    background-image: url("/web/img/SuperHeroBoot/gead.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex: 80%;
+    height: auto;
+    overflow: visible;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    height: auto;
+    overflow: visible;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+}
+
+/* Fake image, just for this example */
+.SPimg {
+    background-color: #aaa;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+
+}
+
+/* Footer */
+#footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    height: 10%;
+
+    width: 100%;
+    position: relative;
+    bottom: 0;
+
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width:100%;
+    }
+}
+
+#img_side{
+    background-size: cover;
+    background-image: url("/web/img/SuperHeroBoot/1.jpg");
+    height:200px;
+}
+
+#img_side_1{
+    background-size: cover;
+    background-image: url("/web/img/SuperHeroBoot/3.jpg");
+    height:200px;
+}
+#img_side_2{
+    background-size: cover;
+    background-image: url("/web/img/SuperHeroBoot/images.jpg");
+    height:300px;
+}
+
+#img_side_3{
+    background-size: cover;
+    background-image: url("/web/img/SuperHeroBoot/header1.jpg");
+    height:200px;
+}
+
+#img_side_4{
+    background-size: cover;
+    height:auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    overflow: visible;
+}
+
+#img_side_5{
+    background-size: cover;
+    height:auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    overflow: visible;
+}
+
+.text{
+    width: auto;
+    height: auto;
+    text-align: justify;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+    overflow: visible;
+}
+
+#rowFut{
+    position: fixed;
+    bottom: 0;
+}
+
+#img123{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#img124{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

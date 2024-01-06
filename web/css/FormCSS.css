@@ -1,0 +1,50 @@
+body {
+    background-image: url("/web/img/NewYork.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.form{
+    background: rgba(39, 126, 248, 0.2);
+    border: 1px solid black;
+    border-radius: 30px;
+    //background-color: #277ef8;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column
+
+}
+
+.form-control{
+    width: 50%;
+    background-color: #277ef8;
+    border-bottom-color: #02317a;
+    border-color: #000103;
+    background-color: white; /* Задаем цвет фона для всех дочерних элементов */
+    border-radius: 20px;
+    color: blue; /* Задание синего цвета текста */
+    font-family: Arial, sans-serif;
+    padding-top: 10px; /* отступ сверху */
+    padding-bottom: 10px;
+    color: black !important;
+    color:black;
+}
+
+.label-form{
+    color: #f7f4f4;
+}
+
+.btn-primary{
+    background-color: black;
+    text-overline-color: #fdf9f9;
+    background: rgba(39, 126, 248, 0.8);
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.fon {
+    height: 100vw;
+    width: 100vw;
+    background-image:url("/web/img/pekin.jpg");
+
+    background-size: contain;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+#times{
+    position: absolute;
+    top: 52px;
+    left: 368px;
+    color: red; /* изменяет цвет текста на красный */
+    font-size: 30px;
+}
+
